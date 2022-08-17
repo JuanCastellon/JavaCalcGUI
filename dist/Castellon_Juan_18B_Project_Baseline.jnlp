@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Castellon_Juan_18B_Project_Baseline.jnlp">
+  <information>
+    <title>Castellon_Juan_18B_Project_Baseline</title>
+    <vendor>rcc</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Castellon_Juan_18B_Project_Baseline.jar" size="6223" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Castellon_Juan_18B_Project_Baseline" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="castellon_juan_18b_project.Castellon_Juan_18B_Project"  name="Castellon_Juan_18B_Project_Baseline" />
+  <update check="always"/>
+</jnlp>
